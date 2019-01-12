@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h1, h3 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  color: #5c35d1;
+}
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.flex__container > div {
+  padding: 2rem;
+}
+.text--center {
+  text-align: center;
+}
+@media (min-width: 48rem) {
+  .container {
+    max-width: 46rem;
+  }
+}
+@media (min-width: 64rem) {
+  .container {
+    max-width: 62rem; 
+  }
+}
+@media (min-width: 75rem) {
+  .container {
+    max-width: 73rem;
+  }
+}
